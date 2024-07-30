@@ -76,6 +76,10 @@ const app = {
             this.strum_guitar();
         });
 
+        document.querySelector(".clear_notes_button").addEventListener('click', () => {
+            this.clear_notes();
+        });
+
         fretboard.addEventListener('mouseover', (event) => {
             if (event.target.classList.contains("note-fret")) {
                 event.target.style.setProperty("--note_dot_opacity", 1);
@@ -138,6 +142,12 @@ const app = {
                 }, (number_of_strings - string) * 50);
             }
         }
+    },
+    clear_notes() {
+        const marked_notes = document.querySelectorAll('.marked-note');
+        marked_notes.forEach(note => {
+            note.classList.remove('marked-note');
+        });
     }
     
 }
