@@ -186,7 +186,7 @@ const app = {
     
                     setTimeout(() => {
                         this.play_note_sound(note, string, fret);
-                    }, (number_of_strings - string) * 400 + index * 200); // Adjust the delay between notes on the same string if needed
+                    }, (number_of_strings - string) * 30 + index * 200); // Adjust the delay between notes on the same string if needed
                 });
             } else if (!anyMarkedNotes) {
                 // Play open string if no marked notes are present
