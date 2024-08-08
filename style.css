@@ -147,7 +147,7 @@ body{
 }
 
 .clear_notes_button{
-    width: 175px;
+    width: 180px;
     height: 40px;
     margin-top: 25px;
     border-radius: 25px;
@@ -176,7 +176,7 @@ body{
 }
 
 .chord_selection button{
-    width: 175px;
+    width: 180px;
     height: 40px;
     margin-top: 25px;
     border-radius: 25px;
@@ -189,4 +189,47 @@ body{
 
 .chord_selection button:hover{
     transform: scale(1.1)
+}
+
+.chord_dropdowns{
+    display: flex;
+    display: none;
+    gap: 50px;
+}
+.chord_dropdown {
+    width: 60%; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    border: 1px solid #C9DABF;
+    background-color: #C9DABF;
+    margin: 10px 0;
+}
+
+@media (max-width: 1366px) {
+    .chord_selection button {
+        width: 100px; /* Reset to original width on large screens */
+    }
+}
+
+@media (max-width: 1200px) {
+    .chord_selection button {
+        width: 100px; /* Reset to original width on large screens */
+    }
+}
+
+@media (max-width: 1024px) {
+    .chord_selection {
+        display: none; /* Hide buttons on smaller screens */
+    }
+    .chord_dropdowns {
+        display: flex; /* Show dropdowns on smaller screens */
+        align-items: center;
+        gap: 10px;
+    }
+    .settings{
+        gap: 50px
+    }
 }

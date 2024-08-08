@@ -136,6 +136,21 @@ const app = {
             this.play_chord("G Minor")
         });
 
+        // Event listeners for the dropdowns
+        document.getElementById('major_chords').addEventListener('change', function() {
+            const selectedChord = this.value;
+            if (selectedChord) {
+                app.play_chord(selectedChord);
+            }
+        });
+
+        document.getElementById('minor_chords').addEventListener('change', function() {
+            const selectedChord = this.value;
+            if (selectedChord) {
+                app.play_chord(selectedChord);
+            }
+        });
+
         fretboard.addEventListener('mouseover', (event) => {
             if (event.target.classList.contains("note-fret")) {
                 event.target.style.setProperty("--note_dot_opacity", 1);
