@@ -1,5 +1,5 @@
 # STRUM IT YOUR WAY:
-StrumItYourWay is a virtual guitar web application that allows users to interactively play and explore guitar chords and notes. Users can strum the guitar, select individual notes, and create custom chord progressions. The application provides a user-friendly interface with realistic guitar sounds and an option for personalized chord suggestions based on user input.
+Strum It Your Way is a virtual guitar web application that allows users to interactively play and explore guitar chords and notes. Users can strum the guitar, select individual notes, and create custom chord progressions. The application provides a user-friendly interface with realistic guitar sounds and an option for personalized chord suggestions based on user input.
 
 
 ## FEATURES:
@@ -29,4 +29,4 @@ If you have any questions or feedback, please feel free to reach out:
 - GitHub: NghiaLam2026
 - Email: nghiatlam03@gmail.com
 
-Enjoy playing and StrumItYourWay!
+Enjoy playing and Strum It Your Way!
