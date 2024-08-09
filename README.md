@@ -29,5 +29,7 @@ If you have any questions or feedback, please feel free to reach out:
 - GitHub: NghiaLam2026
 - Email: nghiatlam03@gmail.com
 
+## LIVE DEMO:
+- Link: 
 
 Enjoy playing and Strum It Your Way!
