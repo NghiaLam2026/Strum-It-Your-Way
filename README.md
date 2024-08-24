@@ -30,6 +30,6 @@ If you have any questions or feedback, please feel free to reach out:
 - Email: nghiatlam03@gmail.com
 
 ## LIVE DEMO:
-- Link: [https://nghialam2026.github.io/Strum-It-Your-Way/](https://nghialam2026.github.io/Strum_It_Your_Way/)
+- Link: https://nghialam2026.github.io/Strum_It_Your_Way/
 
 Enjoy playing and Strum It Your Way!
